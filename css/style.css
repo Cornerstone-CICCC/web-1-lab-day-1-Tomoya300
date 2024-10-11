@@ -1,4 +1,63 @@
 main,
 footer {
   display: flex;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.logo{
+  text-align: center;
+  background-color: #121d51;
+}
+
+
+
+.content {
+  width: 100%;
+  background-color: aquamarine;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.content img{
+  width: 100%;
+}
+
+#about + p{
+  background-color: blueviolet;
+}
+
+#services + p{
+  background-color: coral;
+}
+
+#services + p + ul li:nth-child(2n) {
+  color: red;
+}
+
+#contact ~ ul li a{
+  color: red;
+}
+
+footer div:nth-child(1){
+  background-color: aqua;
+}
+
+footer div:nth-child(2){
+  background-color: rebeccapurple;
+}
+
+footer div:nth-child(3){
+  background-color: greenyellow;
+}
+
+
+
+
+
+
+
